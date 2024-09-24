@@ -620,6 +620,7 @@ require('lazy').setup({
         taplo = {
           root_dir = require('lspconfig.util').root_pattern('*.toml', '.git'),
         },
+        texlab = {},
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
         --
         -- Some languages (like typescript) have entire language plugins that can be useful:
